@@ -1,0 +1,483 @@
+<div class="container" >
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="blog-outer-container">
+            <div class="new_title">
+              <h2>Blog</h2>
+            </div><!-- new_title -->
+            <div class="blog-inner"  ng-repeat="b in blogs">
+              <!-- For version 1 -->
+              <div class="col-lg-6 col-md-12 col-sm-12 blog-preview_item" >
+                <div class="entry-thumb image-hover2"  >
+                  <a href="blogs" ng-click="openDetails(b.id)"> <img src="/image/blog/@{{b.anh}}" alt="blog image" /> </a>
+                </div>
+                <!--entry-thumb image-hover2-->
+                <div class="blog-preview_info">
+                  <ul class="post-meta">
+                    <li><i class="fa fa-user"></i>posted by Admin </li>
+                    <li><i class="fa fa-calendar"></i><time class="entry-date">@{{b.created_at}}</time></li>
+                  </ul>
+                  <!--post-meta-->
+                  <h4 class="blog-preview_title"><a href="blogs" ng-click="openDetails(b.id)">@{{b.tieu_de}}</a></h4>
+                  <div class="blog-preview_desc"></div>
+                  <a class="blog-preview_btn" href="blogs" ng-click="openDetails(b.id)">Read More</a>
+                </div>
+                <!--blog-preview_info-->
+              </div>
+              <!--col-lg-6 col-md-6 col-sm-6 blog-preview_item-->
+             
+              <!-- End for v2 -->
+            </div>
+            <!--blog_inner-->
+          </div>
+          <!--blog-outer-container-->
+        </div> <!-- col-lg-12 col-md-12 col-sm-12 col-xs-12 -->
+      </div>
+      <!--row-->
+    </div>
+
+
+
+
+    <div class="std">
+        <div>
+          <div class="bestsell-pro">
+            <div class="container">
+              <div class="slider-items-products">
+                <div class="bestsell-block">
+                  <div id="bestsell-slider" class="product-flexslider hidden-buttons">
+                    <div class="home-block-inner">
+                      <div class="block-title">
+                        <h2>Best Sellers</h2>
+                      </div>
+                      <!--block-title-->
+                      <div class="pretext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Curabitur eu odio non justo euismod congue ut nec orci.</div>
+                      <a class="view_more_bnt" href="bolt/bolt_bestseller_product_list.html">View All</a>
+                    </div>
+                    <!--home-block-inner-->
+                    <div class="slider-items slider-width-col4 products-grid block-content">
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                              
+                              <!--box-hover-->
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title=""></a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/451/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                            
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title=""></a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/452/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                             
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title=""></a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/453/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                             
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title=""> </a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/454/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div> 
+                    
+                      <!--Endif !$collection->count() -->
+                    </div>
+                    <!--slider-items slider-width-col4 products-grid block-content owl-carousel owl-theme-->
+                  </div>
+                  <!--product-flexslider hidden-buttons-->
+                </div>
+                <!--bestsell-block-->
+              </div>
+              <!--slider-items-products-->
+            </div>
+            <!--container-->
+          </div>
+          <!--bestsell-pro-->
+        </div>
+        <div>
+          <div class="featured-pro">
+            <div class="container">
+              <div class="slider-items-products">
+                <div class="featured-block">
+                  <div id="featured-slider" class="product-flexslider hidden-buttons">
+                    <div class="home-block-inner">
+                      <div class="block-title">
+                        <h2>Featured Product</h2>
+                      </div>
+                      <div class="pretext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Curabitur eu odio non justo euismod congue ut nec orci.</div>
+                      <a class="view_more_bnt" href="bolt/bolt_featured_product_list.html">View All</a>
+                    </div>
+                    <!--home-block-inner-->
+                    <div class="slider-items slider-width-col4 products-grid block-content">
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href=""
+                                title=""><img class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                             
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title="">
+                                   </a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/460/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                             
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title=""></a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/459/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                             
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title="> </a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/458/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->
+                      <div class="item">
+                        <div class="item-inner">
+                          <div class="item-img">
+                            <div class="item-img-info">
+                              <a class="product-image" href="" title=""><img
+                                  class="img-responsive" alt=""
+                                  src=""></a>
+                              <div class="new-label new-top-left"><span> New </span></div>
+                              
+                            </div>
+                            <!--item-img-info-->
+                          </div>
+                          <!--item-img-->
+                          <div class="item-info">
+                            <div class="info-inner">
+                              <div class="item-title">
+                                <a href="" title=""></a>
+                              </div>
+                              <!--item-title-->
+                              <div class="ratings">
+                                <div class="rating-box">
+                                  <div style="width:0%" class="rating"></div>
+                                </div>
+                              </div>
+                              <div class="item-content">
+                                <div class="item-price">
+                                  <div class="price-box">
+                                    <span class="regular-price">
+                                      <span class="price"></span> </span>
+                                  </div>
+                                </div>
+                                <div class="action">
+                                  <button type="button" title="Add to Cart" class="button btn-cart"
+                                    onclick="setLocation('bolt/checkout/cart/add/uenc/aHR0cDovL21hczEubWFnaWt0aGVtZXMuY29tL2luZGV4LnBocC9ib2x0/product/457/form_key/SrNLqZBa2jD5KDHp/index.html')"><span>Add
+                                      to Cart</span></button>
+                                </div>
+                                <!--action-->
+                              </div>
+                              <!--item-content-->
+                            </div>
+                            <!--info-inner-->
+                          </div>
+                          <!--item-info-->
+                        </div>
+                        <!--item-inner-->
+                      </div>
+                      <!--item-->            
+                      <!--Endif !$collection->count() -->
+                    </div>
+                    <!--slider-items slider-width-col4 products-grid block-content-->
+                  </div>
+                  <!--product-flexslider hidden-buttons-->
+                </div>
+                <!--featured-block-->
+              </div>
+              <!--slider-items-products-->
+            </div>
+            <!--container-->
+          </div>
+          <!--featured-pro-->
+          <!-- chk attribute_code -->
+        </div>
+      </div>

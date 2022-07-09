@@ -1,0 +1,47 @@
+.success {
+    width: 50%;
+    height: 460px;
+    background-color: #f8f8f8;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 3px 3px 3px#7c7c7c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content1 p {
+    font-size: 20px;
+}
+
+.content1 {
+    padding-top: 50px;
+    line-height: 30px;
+    height: 500px;
+}
+
+.content1 i {
+    font-size: 100px;
+    color: #72c4db;
+    padding-bottom: 20px;
+}
+
+.content1 label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content1 a {
+    text-decoration: none;
+}
+
+.content1 input {
+    width: 200px;
+    height: 40px;
+    background-color: #72c4db;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
